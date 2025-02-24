@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-
+#include "windows.h"
 #define MAX_NUMBERS 100 // Максимальное количество чисел в файле
 
 // Функция для записи чисел в файл
@@ -112,10 +112,9 @@ void shift_numbers_in_file(const char *filename, int k) {
 
 int main(int argc, char *argv[]) {
     if (argc < 2) {
-        printf("Использование: %s <имя_файла>\n", argv[0]);
         return 1;
     }
-
+    SetConsoleOutputCP(CP_UTF8);
     char *filename = argv[1];
     int choice, target, k;
 
