@@ -3,7 +3,7 @@
 #include "windows.h"
 #include "function.h"
 #define MAX_NUMBERS 100
-int inputInteger() {
+int inputInteger() {двляьддв
     int var, c;
     while (1) {
         while (scanf("%d", &var) != 1) {
