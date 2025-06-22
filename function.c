@@ -2,6 +2,8 @@
 #include <stdlib.h>
 #include "windows.h"
 #include "function.h"
+#include "function.h"
+
 #define MAX_NUMBERS 100
 int inputInteger() {
     int var, c;
