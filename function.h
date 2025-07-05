@@ -7,4 +7,4 @@ int countOccurrences(FILE *file, int target);
 void shiftByK(FILE *file, int k);
 
 #endif //LAB2_2SEM_FUNCTION_H
-xd.,hfakyefi
+
